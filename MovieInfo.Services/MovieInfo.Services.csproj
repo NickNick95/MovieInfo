@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieInfo.Entities\MovieInfo.Entities.csproj" />
+    <ProjectReference Include="..\MovieInfo.Repositories\MovieInfo.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
