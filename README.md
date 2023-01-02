@@ -11,3 +11,4 @@ How to run:
     link: https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
  3) Run Update-Database in the same terminal;
  4) Run application, by default you can see Swagger page;
+ 5) For testing you can use DefaultDataSet.sql query
